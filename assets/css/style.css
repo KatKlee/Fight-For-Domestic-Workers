@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Tangerine:wght@400;700&display=swap');
+
+/* 
+font-family: 'Roboto', sans-serif;
+font-family: 'Tangerine', cursive; 
+*/
+
+@font-face {
+    font-family: 'Santio';
+    src: url('../fonts/Santio\ Bold.otf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parallax {
+    background-image: url('../img/cleo-topper.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax div {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ---------------------------------- Header ---------------------------------- */
+
+/* Take Aktion */
+header nav {
+    font-family: 'Roboto', sans-serif;
+    color:#e7bc0e;
+    width: 250px;
+    padding: 20px;
+    margin: 0 10vw 0 82%;
+    display: flex;
+}
+
+/* Heart Image */
+header nav img {
+    width: 20px;
+    margin-right: 15px;
+}
+
+/* Take Action Link */
+header nav a {
+    color: white;
+    text-decoration-color: #e7bc0e;
+    text-decoration-thickness: 1px;
+    text-underline-position: under;
+    text-underline-offset: 4px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+}
+
+/* Main Headline */
+header h1 {
+    font-family: 'Santio';
+    font-size: 90px;
+    color: white;
+    width: 30%;
+    margin: 210px auto 80px 10vw;
+}
+
+/* Subline */
+header p {
+    font-family: 'Tangerine', cursive;
+    font-size: 55px;
+    font-weight: 700;
+    color: #e7bc0e;
+    width: 30%;
+    margin: 0 auto 150px 10vw;
+}
+
+
+/* ---------------------------------- Main ---------------------------------- */
+
+
+main p {
+    font-family: 'Santio';
+    font-size: 35px;
+    line-height: 1.8em;
+}
+
+/* Highlighted Text */
+main p span {
+    color: white;
+    background-color:rgb(33, 33, 33);
+    padding: 6px;
+}
+
+/* Intro Text */
+.intro {
+    color: #6bc1a3;
+    line-height: 1.8em;
+    width: 48%;
+    margin: 440px auto 0 24vw;
+}
+
+/* Outro Text */
+.outro {
+    color: #7eb8e1;
+    line-height: 1.8em;
+    width: 58%;
+    margin: 200px 0 0 33vw;
+    padding-bottom: 120px;
+}
+
+/* First Section / Spacing above */
+main section:first-of-type {
+    margin: 550px 0 0 10vw;
+}
+
+/* Sections Spacing */
+main section {
+    margin: 200px 0 0 10vw;
+}
+
+/* Size Icons */
+main section img {
+    width: 160px;
+}
+
+/* Section Headline Styling */
+main section h2 {
+    font-family: 'Santio';
+    font-size: 170px;
+    line-height: 0.8em;
+    margin: 200px 0 0 0;
+}
+
+/* Section Subline Styling */
+main section p {
+    font-size: 44px;
+}
+
+/* Payment Spacing / Because order of h2 and p is switched */
+.payment p {
+    margin: 200px 0 0 0;
+}
+
+.payment h2 {
+    margin: 20px 0 0 0;
+}
+
+/* Section Text Colors */
+.workers {
+    color: #e7bc0e;
+}
+
+.payment {
+    color: #cb91b6;
+}
+
+.insurance {
+    color: #6bc1a3;
+}
+
+
+/* ---------------------------------- Footer ---------------------------------- */
+
+/* Background color */
+footer {
+    background-color: #000;
+}
+
+/* Image "Family at the beach" */
+footer div img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+/* Beach background */
+footer div {
+    background-color: #fff;
+    background-image: url('../img/see.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Call to action text */
+footer h3 {
+    font-family: 'Santio';
+    font-size: 100px;
+    color: white;
+    margin: 0 0 0 10vw;
+    padding-top: 450px;
+    padding-bottom: 110px;
+    width: 48%;
+}
+
+/* Donate Button */
+.donate {
+    font-family: 'Roboto', sans-serif;
+    font-size: 34px;
+    color: white;
+    text-decoration: none;
+    padding: 16px 36px;
+    border: 2px solid white;
+    margin: 0 0 0 10vw;
+}
+
+/* Donate Button / hover */
+.donate:hover {
+    box-shadow: 6px 6px 0 0 white;
+}
+
+/* Source reference */
+footer p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    padding: 320px 0 25px 0;
+    margin: 0 auto;
+}
+
+/* Link to Film */
+footer p a {
+    color: #6bc1a3;
+    text-decoration: none;
+}
+
