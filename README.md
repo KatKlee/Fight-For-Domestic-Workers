@@ -12,7 +12,7 @@ Version 2.0:
 *A one-pager website inspired by the film 'Roma', a mexican film drama from 2018 by director Alfonso Cuarón.  
 This is a pure frontend project, developed with HTML and CSS. The special feature of this project was the vertical parallax scrolling effect.
 
-The elements, the structure and the design according to a given layout.
+The elements, the structure and the design according to a given layout.*
 
 *Version 2.0:  
 – responsive realisation, e.g. via media queries, so that the page is also user-friendly with mobile devices.*
